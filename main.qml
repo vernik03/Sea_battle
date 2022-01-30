@@ -4,16 +4,6 @@ import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.12
 import QtQml 2.15
 
-/*
-Window {
-    width: 400
-    height: 400
-    visible: true
-    title: qsTr("Hello World")
-    x: width/40
-    y: height/40
-}
-*/
 Window {
     signal send(int x, int y, int index)
     width: 300
