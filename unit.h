@@ -14,7 +14,6 @@ public:
     QQuickItem* qTile;
     unit();
     void ReadFile(std::string path = "../Sea_Battle_test/table.txt");
-    //bool ships[100]={1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0};
     bool ships[100];
 public slots:
     void cppSlot(int x, int y, int index);
@@ -23,4 +22,4 @@ signals:
 
 };
 
-#endif // TILE_H
+#endif

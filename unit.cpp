@@ -6,7 +6,6 @@ unit::unit()
 }
 
 void unit::cppSlot(int x, int y, int index){
-    qDebug()<<"Area: x="<<x<<" y= "<<y<<" index: "<<index;
     emit cppSignal(index, ships[index]);
 }
 
@@ -18,8 +17,8 @@ void unit::ReadFile(std::string path){
             in>>ch;
             ships[i]=std::atoi(&ch);
         }
-    }else
-    {
+    }
+    else {
         qDebug()<<"Error read file";
     }
 
